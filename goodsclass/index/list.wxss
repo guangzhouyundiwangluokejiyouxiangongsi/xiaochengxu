@@ -1,0 +1,74 @@
+/* goodsclass/index/list.wxss */
+.goodslist{
+  width:100%;
+}
+
+.goodslist .goods{
+  width:98%;
+  height: 156px;
+  margin-left:1%;
+  padding-top: 8px;
+  background: #e4e5e9;
+  float: left;
+}
+.goodslist .image{
+  width:40%;
+  height: 150px;
+  float: left;
+  background: #fff;
+}
+.goodslist .image image{
+  width:100%;
+  height: 150px;
+  float: left;
+}
+
+.goodslist .goods .goodscon{
+  line-height: 50rpx;
+  background: #fff;
+  width:60%;
+  height: 150px;
+  float:left;
+}
+.goodslist .goods .goodscon text{
+  display: block;
+  font-size: 0.8rem;
+  width:98%;
+  /*white-space:nowrap;*/
+  overflow: hidden;
+  text-overflow:ellipsis;
+  margin-top:13px;
+  padding-left: 20rpx;
+  
+}
+.goodslist .goods .goodscon .title{
+  height: 100rpx;
+  /*background: #f00;*/
+}
+
+
+.goodslist .goods .goodscon .price{
+   width:98%;
+  height: 77rpx;
+  line-height: 35rpx;
+  /*background: #000;*/
+}
+.goodslist .goods .goodscon .price text{
+  width:45%;
+  float: left;
+  color:#f00;
+  font-size: 28rpx;
+  font-weight:800;
+  
+}
+.goodslist .goods .goodscon .price .rengzheng{
+ width:45%;
+  float: right;
+  color:#f00;
+  font-weight:800;
+}
+.rengzheng image{
+  width:20%;
+  margin-right:2%;
+  margin-top:20rpx;
+}

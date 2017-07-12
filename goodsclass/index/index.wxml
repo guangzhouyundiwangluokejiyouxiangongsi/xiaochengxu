@@ -1,0 +1,23 @@
+<include src="../../public/header" />
+<view class="goodsclass">
+    <view class="class1">
+    <view wx:for="{{class1}}">
+      <text bindtap="mylick" id="{{item.id}}"  class="{{num == item.id?'cur':''}}" >{{item.name}}</text>
+    </view>
+    </view>
+
+<view wx:for="{{class}}">
+     <view class="class2 nav1">
+              <navigator  url="/goodsclass/index/list?id={{item.id}}" hover-class="navigator-hover">
+                <text>{{item.name}}</text>
+              </navigator>
+              <view class="class3">
+                  <view wx:for="{{item.class3}}">
+                    <navigator  url="/goodsclass/index/list?id={{item.id}}" hover-class="navigator-hover">
+                        <text>{{item.name}}</text>
+                    </navigator>
+                  </view>
+              </view>
+      </view>
+</view>
+</view>

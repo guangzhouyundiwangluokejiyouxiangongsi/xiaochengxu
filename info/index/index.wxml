@@ -1,0 +1,192 @@
+<include src="../../public/header" />
+<view class="info">
+  <view class="info2">
+      <image class="logo" src="http://www.yundi88.com/Public/upload/logo/thumb/38/logo_thumb_38_83_83.png" mode="widthFix"></image>
+      <view class="title">
+          <text>产品测试测试产品测试测试产品测试测试产品测试测试产品测试测试</text>
+      </view>
+      <view class="renzheng">
+        <view class="time">
+            <text>2017-07-10  浏览量:25555</text>
+            <image class="renzhengico" src="http://www.yundi88.com/Public/upload/logo/thumb/38/logo_thumb_38_83_83.png" mode="widthFix"></image>
+            <image class="renzhengico" src="http://www.yundi88.com/Public/upload/logo/thumb/38/logo_thumb_38_83_83.png" mode="widthFix"></image>
+          </view>
+      </view>
+  
+  </view>
+  <view style="width:100%;height:1rpx;clear:both;"></view>
+  <view class="description">
+  说起来，我也算是360手机的老用户了。去年，完成了品牌重构的360分别带来了F4、N4、N4S三款表 现抢眼的产品，“360N4S在包装配件、外观设计、细节做工和硬件配置方面极具诚意，在千元手机中出类拔萃”，这是在我体验N4S之后给出的评价。
+  </view>
+   <view class="images">
+      <image src="http://sinastorage.com/storage.miaosha.sina.com.cn/products/201703/ba050b07c5fe991c04dadce9857295c6.jpg" mode="widthFix"></image>
+      <image src="http://sinastorage.com/storage.miaosha.sina.com.cn/products/201703/ba050b07c5fe991c04dadce9857295c6.jpg" mode="widthFix"></image>
+      <image src="http://sinastorage.com/storage.miaosha.sina.com.cn/products/201703/ba050b07c5fe991c04dadce9857295c6.jpg" mode="widthFix"></image>
+      <image src="http://sinastorage.com/storage.miaosha.sina.com.cn/products/201703/ba050b07c5fe991c04dadce9857295c6.jpg" mode="widthFix"></image>
+      <image src="http://sinastorage.com/storage.miaosha.sina.com.cn/products/201703/ba050b07c5fe991c04dadce9857295c6.jpg" mode="widthFix"></image>
+      <image src="http://sinastorage.com/storage.miaosha.sina.com.cn/products/201703/ba050b07c5fe991c04dadce9857295c6.jpg" mode="widthFix"></image>
+      <image src="http://sinastorage.com/storage.miaosha.sina.com.cn/products/201703/ba050b07c5fe991c04dadce9857295c6.jpg" mode="widthFix"></image>
+      <image src="http://sinastorage.com/storage.miaosha.sina.com.cn/products/201703/ba050b07c5fe991c04dadce9857295c6.jpg" mode="widthFix"></image>
+      <image src="http://sinastorage.com/storage.miaosha.sina.com.cn/products/201703/ba050b07c5fe991c04dadce9857295c6.jpg" mode="widthFix"></image>
+   </view>
+</view>
+
+
+
+
+<view class="info">
+  <view class="info2">
+      <image class="logo" src="http://www.yundi88.com/Public/upload/logo/thumb/38/logo_thumb_38_83_83.png" mode="widthFix"></image>
+      <view class="title">
+          <text>产品测试测试产品测试测试产品测试测试产品测试测试产品测试测试</text>
+      </view>
+      <view class="renzheng">
+        <view class="time">
+            <text>2017-07-10  浏览量:25555</text>
+            <image class="renzhengico" src="http://www.yundi88.com/Public/upload/logo/thumb/38/logo_thumb_38_83_83.png" mode="widthFix"></image>
+            <image class="renzhengico" src="http://www.yundi88.com/Public/upload/logo/thumb/38/logo_thumb_38_83_83.png" mode="widthFix"></image>
+          </view>
+      </view>
+  
+  </view>
+  <view style="width:100%;height:1rpx;clear:both;"></view>
+  <view class="description">
+  说起来，我也算是360手机的老用户了。去年，完成了品牌重构的360分别带来了F4、N4、N4S三款表 现抢眼的产品，“360N4S在包装配件、外观设计、细节做工和硬件配置方面极具诚意，在千元手机中出类拔萃”，这是在我体验N4S之后给出的评价。
+  </view>
+   <view class="images">
+      <image src="http://sinastorage.com/storage.miaosha.sina.com.cn/products/201703/ba050b07c5fe991c04dadce9857295c6.jpg" mode="widthFix"></image>
+      <image src="http://sinastorage.com/storage.miaosha.sina.com.cn/products/201703/ba050b07c5fe991c04dadce9857295c6.jpg" mode="widthFix"></image>
+      <image src="http://sinastorage.com/storage.miaosha.sina.com.cn/products/201703/ba050b07c5fe991c04dadce9857295c6.jpg" mode="widthFix"></image>
+      <image src="http://sinastorage.com/storage.miaosha.sina.com.cn/products/201703/ba050b07c5fe991c04dadce9857295c6.jpg" mode="widthFix"></image>
+      <image src="http://sinastorage.com/storage.miaosha.sina.com.cn/products/201703/ba050b07c5fe991c04dadce9857295c6.jpg" mode="widthFix"></image>
+      <image src="http://sinastorage.com/storage.miaosha.sina.com.cn/products/201703/ba050b07c5fe991c04dadce9857295c6.jpg" mode="widthFix"></image>
+      <image src="http://sinastorage.com/storage.miaosha.sina.com.cn/products/201703/ba050b07c5fe991c04dadce9857295c6.jpg" mode="widthFix"></image>
+      <image src="http://sinastorage.com/storage.miaosha.sina.com.cn/products/201703/ba050b07c5fe991c04dadce9857295c6.jpg" mode="widthFix"></image>
+      <image src="http://sinastorage.com/storage.miaosha.sina.com.cn/products/201703/ba050b07c5fe991c04dadce9857295c6.jpg" mode="widthFix"></image>
+   </view>
+</view>
+<view class="info">
+  <view class="info2">
+      <image class="logo" src="http://www.yundi88.com/Public/upload/logo/thumb/38/logo_thumb_38_83_83.png" mode="widthFix"></image>
+      <view class="title">
+          <text>产品测试测试产品测试测试产品测试测试产品测试测试产品测试测试</text>
+      </view>
+      <view class="renzheng">
+        <view class="time">
+            <text>2017-07-10  浏览量:25555</text>
+            <image class="renzhengico" src="http://www.yundi88.com/Public/upload/logo/thumb/38/logo_thumb_38_83_83.png" mode="widthFix"></image>
+            <image class="renzhengico" src="http://www.yundi88.com/Public/upload/logo/thumb/38/logo_thumb_38_83_83.png" mode="widthFix"></image>
+          </view>
+      </view>
+  
+  </view>
+  <view style="width:100%;height:1rpx;clear:both;"></view>
+  <view class="description">
+  说起来，我也算是360手机的老用户了。去年，完成了品牌重构的360分别带来了F4、N4、N4S三款表 现抢眼的产品，“360N4S在包装配件、外观设计、细节做工和硬件配置方面极具诚意，在千元手机中出类拔萃”，这是在我体验N4S之后给出的评价。
+  </view>
+   <view class="images">
+      <image src="http://sinastorage.com/storage.miaosha.sina.com.cn/products/201703/ba050b07c5fe991c04dadce9857295c6.jpg" mode="widthFix"></image>
+      <image src="http://sinastorage.com/storage.miaosha.sina.com.cn/products/201703/ba050b07c5fe991c04dadce9857295c6.jpg" mode="widthFix"></image>
+      <image src="http://sinastorage.com/storage.miaosha.sina.com.cn/products/201703/ba050b07c5fe991c04dadce9857295c6.jpg" mode="widthFix"></image>
+      <image src="http://sinastorage.com/storage.miaosha.sina.com.cn/products/201703/ba050b07c5fe991c04dadce9857295c6.jpg" mode="widthFix"></image>
+      <image src="http://sinastorage.com/storage.miaosha.sina.com.cn/products/201703/ba050b07c5fe991c04dadce9857295c6.jpg" mode="widthFix"></image>
+      <image src="http://sinastorage.com/storage.miaosha.sina.com.cn/products/201703/ba050b07c5fe991c04dadce9857295c6.jpg" mode="widthFix"></image>
+      <image src="http://sinastorage.com/storage.miaosha.sina.com.cn/products/201703/ba050b07c5fe991c04dadce9857295c6.jpg" mode="widthFix"></image>
+      <image src="http://sinastorage.com/storage.miaosha.sina.com.cn/products/201703/ba050b07c5fe991c04dadce9857295c6.jpg" mode="widthFix"></image>
+      <image src="http://sinastorage.com/storage.miaosha.sina.com.cn/products/201703/ba050b07c5fe991c04dadce9857295c6.jpg" mode="widthFix"></image>
+   </view>
+</view>
+<view class="info">
+  <view class="info2">
+      <image class="logo" src="http://www.yundi88.com/Public/upload/logo/thumb/38/logo_thumb_38_83_83.png" mode="widthFix"></image>
+      <view class="title">
+          <text>产品测试测试产品测试测试产品测试测试产品测试测试产品测试测试</text>
+      </view>
+      <view class="renzheng">
+        <view class="time">
+            <text>2017-07-10  浏览量:25555</text>
+            <image class="renzhengico" src="http://www.yundi88.com/Public/upload/logo/thumb/38/logo_thumb_38_83_83.png" mode="widthFix"></image>
+            <image class="renzhengico" src="http://www.yundi88.com/Public/upload/logo/thumb/38/logo_thumb_38_83_83.png" mode="widthFix"></image>
+          </view>
+      </view>
+  
+  </view>
+  <view style="width:100%;height:1rpx;clear:both;"></view>
+  <view class="description">
+  说起来，我也算是360手机的老用户了。去年，完成了品牌重构的360分别带来了F4、N4、N4S三款表 现抢眼的产品，“360N4S在包装配件、外观设计、细节做工和硬件配置方面极具诚意，在千元手机中出类拔萃”，这是在我体验N4S之后给出的评价。
+  </view>
+   <view class="images">
+      <image src="http://sinastorage.com/storage.miaosha.sina.com.cn/products/201703/ba050b07c5fe991c04dadce9857295c6.jpg" mode="widthFix"></image>
+      <image src="http://sinastorage.com/storage.miaosha.sina.com.cn/products/201703/ba050b07c5fe991c04dadce9857295c6.jpg" mode="widthFix"></image>
+      <image src="http://sinastorage.com/storage.miaosha.sina.com.cn/products/201703/ba050b07c5fe991c04dadce9857295c6.jpg" mode="widthFix"></image>
+      <image src="http://sinastorage.com/storage.miaosha.sina.com.cn/products/201703/ba050b07c5fe991c04dadce9857295c6.jpg" mode="widthFix"></image>
+      <image src="http://sinastorage.com/storage.miaosha.sina.com.cn/products/201703/ba050b07c5fe991c04dadce9857295c6.jpg" mode="widthFix"></image>
+      <image src="http://sinastorage.com/storage.miaosha.sina.com.cn/products/201703/ba050b07c5fe991c04dadce9857295c6.jpg" mode="widthFix"></image>
+      <image src="http://sinastorage.com/storage.miaosha.sina.com.cn/products/201703/ba050b07c5fe991c04dadce9857295c6.jpg" mode="widthFix"></image>
+      <image src="http://sinastorage.com/storage.miaosha.sina.com.cn/products/201703/ba050b07c5fe991c04dadce9857295c6.jpg" mode="widthFix"></image>
+      <image src="http://sinastorage.com/storage.miaosha.sina.com.cn/products/201703/ba050b07c5fe991c04dadce9857295c6.jpg" mode="widthFix"></image>
+   </view>
+</view>
+<view class="info">
+  <view class="info2">
+      <image class="logo" src="http://www.yundi88.com/Public/upload/logo/thumb/38/logo_thumb_38_83_83.png" mode="widthFix"></image>
+      <view class="title">
+          <text>产品测试测试产品测试测试产品测试测试产品测试测试产品测试测试</text>
+      </view>
+      <view class="renzheng">
+        <view class="time">
+            <text>2017-07-10  浏览量:25555</text>
+            <image class="renzhengico" src="http://www.yundi88.com/Public/upload/logo/thumb/38/logo_thumb_38_83_83.png" mode="widthFix"></image>
+            <image class="renzhengico" src="http://www.yundi88.com/Public/upload/logo/thumb/38/logo_thumb_38_83_83.png" mode="widthFix"></image>
+          </view>
+      </view>
+  
+  </view>
+  <view style="width:100%;height:1rpx;clear:both;"></view>
+  <view class="description">
+  说起来，我也算是360手机的老用户了。去年，完成了品牌重构的360分别带来了F4、N4、N4S三款表 现抢眼的产品，“360N4S在包装配件、外观设计、细节做工和硬件配置方面极具诚意，在千元手机中出类拔萃”，这是在我体验N4S之后给出的评价。
+  </view>
+   <view class="images">
+      <image src="http://sinastorage.com/storage.miaosha.sina.com.cn/products/201703/ba050b07c5fe991c04dadce9857295c6.jpg" mode="widthFix"></image>
+      <image src="http://sinastorage.com/storage.miaosha.sina.com.cn/products/201703/ba050b07c5fe991c04dadce9857295c6.jpg" mode="widthFix"></image>
+      <image src="http://sinastorage.com/storage.miaosha.sina.com.cn/products/201703/ba050b07c5fe991c04dadce9857295c6.jpg" mode="widthFix"></image>
+      <image src="http://sinastorage.com/storage.miaosha.sina.com.cn/products/201703/ba050b07c5fe991c04dadce9857295c6.jpg" mode="widthFix"></image>
+      <image src="http://sinastorage.com/storage.miaosha.sina.com.cn/products/201703/ba050b07c5fe991c04dadce9857295c6.jpg" mode="widthFix"></image>
+      <image src="http://sinastorage.com/storage.miaosha.sina.com.cn/products/201703/ba050b07c5fe991c04dadce9857295c6.jpg" mode="widthFix"></image>
+      <image src="http://sinastorage.com/storage.miaosha.sina.com.cn/products/201703/ba050b07c5fe991c04dadce9857295c6.jpg" mode="widthFix"></image>
+      <image src="http://sinastorage.com/storage.miaosha.sina.com.cn/products/201703/ba050b07c5fe991c04dadce9857295c6.jpg" mode="widthFix"></image>
+      <image src="http://sinastorage.com/storage.miaosha.sina.com.cn/products/201703/ba050b07c5fe991c04dadce9857295c6.jpg" mode="widthFix"></image>
+   </view>
+</view>
+<view class="info">
+  <view class="info2">
+      <image class="logo" src="http://www.yundi88.com/Public/upload/logo/thumb/38/logo_thumb_38_83_83.png" mode="widthFix"></image>
+      <view class="title">
+          <text>产品测试测试产品测试测试产品测试测试产品测试测试产品测试测试</text>
+      </view>
+      <view class="renzheng">
+        <view class="time">
+            <text>2017-07-10  浏览量:25555</text>
+            <image class="renzhengico" src="http://www.yundi88.com/Public/upload/logo/thumb/38/logo_thumb_38_83_83.png" mode="widthFix"></image>
+            <image class="renzhengico" src="http://www.yundi88.com/Public/upload/logo/thumb/38/logo_thumb_38_83_83.png" mode="widthFix"></image>
+          </view>
+      </view>
+  
+  </view>
+  <view style="width:100%;height:1rpx;clear:both;"></view>
+  <view class="description">
+  说起来，我也算是360手机的老用户了。去年，完成了品牌重构的360分别带来了F4、N4、N4S三款表 现抢眼的产品，“360N4S在包装配件、外观设计、细节做工和硬件配置方面极具诚意，在千元手机中出类拔萃”，这是在我体验N4S之后给出的评价。
+  </view>
+   <view class="images">
+      <image src="http://sinastorage.com/storage.miaosha.sina.com.cn/products/201703/ba050b07c5fe991c04dadce9857295c6.jpg" mode="widthFix"></image>
+      <image src="http://sinastorage.com/storage.miaosha.sina.com.cn/products/201703/ba050b07c5fe991c04dadce9857295c6.jpg" mode="widthFix"></image>
+      <image src="http://sinastorage.com/storage.miaosha.sina.com.cn/products/201703/ba050b07c5fe991c04dadce9857295c6.jpg" mode="widthFix"></image>
+      <image src="http://sinastorage.com/storage.miaosha.sina.com.cn/products/201703/ba050b07c5fe991c04dadce9857295c6.jpg" mode="widthFix"></image>
+      <image src="http://sinastorage.com/storage.miaosha.sina.com.cn/products/201703/ba050b07c5fe991c04dadce9857295c6.jpg" mode="widthFix"></image>
+      <image src="http://sinastorage.com/storage.miaosha.sina.com.cn/products/201703/ba050b07c5fe991c04dadce9857295c6.jpg" mode="widthFix"></image>
+      <image src="http://sinastorage.com/storage.miaosha.sina.com.cn/products/201703/ba050b07c5fe991c04dadce9857295c6.jpg" mode="widthFix"></image>
+      <image src="http://sinastorage.com/storage.miaosha.sina.com.cn/products/201703/ba050b07c5fe991c04dadce9857295c6.jpg" mode="widthFix"></image>
+      <image src="http://sinastorage.com/storage.miaosha.sina.com.cn/products/201703/ba050b07c5fe991c04dadce9857295c6.jpg" mode="widthFix"></image>
+   </view>
+</view>
+<include src="../../public/footer" />

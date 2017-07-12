@@ -1,0 +1,198 @@
+<include src="../../public/header" />
+<swiper indicator-dots="{{true}}"
+  autoplay="{{true}}" interval="3000" duration="1000" style="height:210px;">
+  <block wx:for="{{datas}}">
+  <navigator url="/pages/index/index" hover-class="navigator-hover">
+    <swiper-item >
+      <image mode="widthFix" src="{{item}}" class="slide-image"  />
+    </swiper-item>
+   </navigator>
+  </block>
+</swiper>
+
+
+<view class="classnav" style="display: flex;flex-wrap:wrap;margin-top:1.5rem;">
+   <navigator class="nav2" url="/pages/index/index" hover-class="navigator-hover">
+        <image  class="myimages" src="http://localhost:8080/xiaochengxu/images/sort_icon_01.png"></image>
+        <text class="text">分类</text>
+    </navigator>
+
+    <navigator class="nav2" url="/pages/index/index" hover-class="navigator-hover">
+      <image class="myimages" src="http://localhost:8080/xiaochengxu/images/sort_icon_02.png"></image>
+      <text class="text">企业信息</text>
+    </navigator>
+
+    <navigator class="nav2" url="/pages/index/index" hover-class="navigator-hover">
+    <image class="myimages" src="http://localhost:8080/xiaochengxu/images/sort_icon_03.png"></image>
+     <text class="text">金牌商家</text>
+    </navigator>
+
+    <navigator class="nav2" url="/pages/index/index" hover-class="navigator-hover">
+    <image class="myimages" src="http://localhost:8080/xiaochengxu/images/sort_icon_04.png"></image>
+     <text class="text">免费推广</text>
+    </navigator>
+
+    <navigator class="nav2" url="/pages/index/index" hover-class="navigator-hover">
+    <image class="myimages" src="http://localhost:8080/xiaochengxu/images/sort_icon_05.png"></image>
+     <text class="text">云商会</text>
+    </navigator>
+
+    <navigator class="nav2" url="/pages/index/index" hover-class="navigator-hover">
+    <image class="myimages" src="http://localhost:8080/xiaochengxu/images/sort_icon_06.png"></image>
+     <text class="text">企业云谱</text>
+    </navigator>
+
+    <navigator class="nav2" url="/pages/index/index" hover-class="navigator-hover">
+    <image class="myimages" src="http://localhost:8080/xiaochengxu/images/sort_icon_08.png"></image>
+     <text class="text">我的云</text>
+    </navigator>
+</view>
+
+<!--同行产品-->
+<view>
+  <view class="tonghang">
+    <text>同行产品</text>
+  </view>
+  <view class="tonghangclass">
+   <view class="tonghangcls"><image mode="widthFix" src="http://localhost:8080/xiaochengxu/images/2.jpg"></image></view>
+   <view class="tonghangcls"><image mode="widthFix" src="http://localhost:8080/xiaochengxu/images/2.jpg"></image></view>
+   <view class="tonghangcls"><image mode="widthFix" src="http://localhost:8080/xiaochengxu/images/2.jpg"></image></view>
+   <view class="tonghangcls"><image mode="widthFix" src="http://localhost:8080/xiaochengxu/images/2.jpg"></image></view>
+   <view class="tonghangcls"><image mode="widthFix" src="http://localhost:8080/xiaochengxu/images/2.jpg"></image></view>
+   <view class="tonghangcls"><image mode="widthFix" src="http://localhost:8080/xiaochengxu/images/2.jpg"></image></view>
+   <view class="tonghangcls"><image mode="widthFix" src="http://localhost:8080/xiaochengxu/images/2.jpg"></image></view>
+  </view>
+</view>
+<!--同行产品-->
+
+<!--最新产品-->
+<view class="zuixincp">
+  <view class="zuixin">
+    <text>最新产品</text>
+  </view>
+  <view class="zuixincp1">
+      <navigator  url="/pages/index/index" hover-class="navigator-hover">
+        <image src="http://www.yundi88.com/Public/upload/ad/2017/05-16/591ac3254a8dc.jpg" mode="widthFix"></image>
+        <text>多功能螺丝刀套装多功能螺丝刀套装</text>
+     </navigator>
+ </view>
+
+    <view class="zuixincp2">
+          <navigator  url="/pages/index/index" hover-class="navigator-hover">
+            <image src="http://www.yundi88.com/Public/upload/ad/2017/05-16/591ac3254a8dc.jpg" mode="widthFix"></image>
+        </navigator>
+    </view>
+    <view class="zuixincp2">
+          <navigator  url="/pages/index/index" hover-class="navigator-hover">
+            <image src="http://www.yundi88.com/Public/upload/ad/2017/05-16/591ac3254a8dc.jpg" mode="widthFix"></image>
+        </navigator>
+    </view>
+    <view class="zuixincp2">
+          <navigator  url="/pages/index/index" hover-class="navigator-hover">
+            <image src="http://www.yundi88.com/Public/upload/ad/2017/05-16/591ac3254a8dc.jpg" mode="widthFix"></image>
+        </navigator>
+    </view>
+    <view class="zuixincp2">
+          <navigator  url="/pages/index/index" hover-class="navigator-hover">
+            <image src="http://www.yundi88.com/Public/upload/ad/2017/05-16/591ac3254a8dc.jpg" mode="widthFix"></image>
+        </navigator>
+    </view>
+</view>
+<!--最新产品-->
+
+<view style="width:100%;height:1rpx;clear:both;"></view>
+<!--特色厂家-->
+<view class="zuixincp">
+  <view class="zuixin">
+    <text>特色厂家</text>
+  </view>
+  <view class="zuixincp1">
+      <navigator  url="/pages/index/index" hover-class="navigator-hover">
+        <image src="http://www.yundi88.com/Public/upload/ad/2017/05-16/591ac3254a8dc.jpg" mode="widthFix"></image>
+        <text>多功能螺丝刀套装多功能螺丝刀套装</text>
+     </navigator>
+ </view>
+
+    <view class="zuixincp2">
+          <navigator  url="/pages/index/index" hover-class="navigator-hover">
+            <image src="http://www.yundi88.com/Public/upload/ad/2017/05-16/591ac3254a8dc.jpg" mode="widthFix"></image>
+        </navigator>
+    </view>
+    <view class="zuixincp2">
+          <navigator  url="/pages/index/index" hover-class="navigator-hover">
+            <image src="http://www.yundi88.com/Public/upload/ad/2017/05-16/591ac3254a8dc.jpg" mode="widthFix"></image>
+        </navigator>
+    </view>
+    <view class="zuixincp2">
+          <navigator  url="/pages/index/index" hover-class="navigator-hover">
+            <image src="http://www.yundi88.com/Public/upload/ad/2017/05-16/591ac3254a8dc.jpg" mode="widthFix"></image>
+        </navigator>
+    </view>
+    <view class="zuixincp2">
+          <navigator  url="/pages/index/index" hover-class="navigator-hover">
+            <image src="http://www.yundi88.com/Public/upload/ad/2017/05-16/591ac3254a8dc.jpg" mode="widthFix"></image>
+        </navigator>
+    </view>
+    <view class="zuixincp2">
+          <navigator  url="/pages/index/index" hover-class="navigator-hover">
+            <image src="http://www.yundi88.com/Public/upload/ad/2017/05-16/591ac3254a8dc.jpg" mode="widthFix"></image>
+        </navigator>
+    </view>
+    <view class="zuixincp2">
+          <navigator  url="/pages/index/index" hover-class="navigator-hover">
+            <image src="http://www.yundi88.com/Public/upload/ad/2017/05-16/591ac3254a8dc.jpg" mode="widthFix"></image>
+        </navigator>
+    </view>
+    <view class="zuixincp2">
+          <navigator  url="/pages/index/index" hover-class="navigator-hover">
+            <image src="http://www.yundi88.com/Public/upload/ad/2017/05-16/591ac3254a8dc.jpg" mode="widthFix"></image>
+        </navigator>
+    </view>
+</view>
+<!--特色厂家-->
+<view style="width:100%;height:1rpx;clear:both;"></view>
+<!--精品推荐-->
+<view class="tuijian">
+  <view class="jingpingtext">
+    <text>精品推荐</text>
+  </view>
+  <view class="jingpingtuijian">
+
+   <view class="chanping">
+      <image mode="widthFix" src="http://www.yundi88.com/Public/upload/ad/2017/05-16/591ac3254a8dc.jpg"></image>
+      <text class="text" style="height:2rem;margin-bottom:0.5rem;">英伦纯色伴郎新郎结婚礼服英伦纯色伴郎新郎结婚礼服英伦纯色伴郎新郎结婚礼服英伦纯色伴郎新郎结婚礼服</text>
+      <view class="text" style="line-height:1.3rem;">
+        <text>￥100.00</text>
+        <view style="width:45%;">
+          <image style="float:left;" src="http://localhost:8080/xiaochengxu/rengzheng.png" mode="widthFix"></image>
+          <image style="float:right;" src="http://localhost:8080/xiaochengxu/yunshanghui.png" mode="widthFix"></image>
+        </view>
+      </view>
+   </view>
+   <view class="chanping">
+      <image mode="widthFix" src="http://www.yundi88.com/Public/upload/ad/2017/05-16/591ac3254a8dc.jpg"></image>
+      <text class="text" style="height:2rem;margin-bottom:0.5rem;">英伦纯色伴郎新郎结婚礼服英伦纯色伴郎新郎结婚礼服英伦纯色伴郎新郎结婚礼服英伦纯色伴郎新郎结婚礼服</text>
+      <view class="text" style="line-height:1.3rem;">
+        <text>￥100.00</text>
+        <view style="width:45%;">
+          <image style="float:left;" src="http://localhost:8080/xiaochengxu/rengzheng.png" mode="widthFix"></image>
+          <image style="float:right;" src="http://localhost:8080/xiaochengxu/yunshanghui.png" mode="widthFix"></image>
+        </view>
+      </view>
+   </view>
+   <view class="chanping">
+      <image mode="widthFix" src="http://www.yundi88.com/Public/upload/ad/2017/05-16/591ac3254a8dc.jpg"></image>
+      <text class="text" style="height:2rem;margin-bottom:0.5rem;">英伦纯色伴郎新郎结婚礼服英伦纯色伴郎新郎结婚礼服英伦纯色伴郎新郎结婚礼服英伦纯色伴郎新郎结婚礼服</text>
+      <view class="text" style="line-height:1.3rem;">
+        <text>￥100.00</text>
+        <view style="width:45%;">
+          <image style="float:left;" src="http://localhost:8080/xiaochengxu/rengzheng.png" mode="widthFix"></image>
+          <image style="float:right;" src="http://localhost:8080/xiaochengxu/yunshanghui.png" mode="widthFix"></image>
+        </view>
+      </view>
+   </view>
+  </view>
+</view>
+<!--精品推荐-->
+
+<include src="../../public/footer" />

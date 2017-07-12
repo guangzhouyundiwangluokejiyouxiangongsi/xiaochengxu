@@ -1,0 +1,5 @@
+<view style="width:100%;height:1rpx;clear:both;"></view>
+<view class="footer">
+    <text>云狄网络版权所有</text>
+    <text>粤ICP备16076354号</text>
+</view>

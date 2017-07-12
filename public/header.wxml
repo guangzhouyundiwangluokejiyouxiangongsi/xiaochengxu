@@ -1,0 +1,11 @@
+<view class="head">
+      <view class="header">
+        <text>企业信息</text>
+      </view>
+      <view class="sousuo">
+      <navigator  url="/pages/index/index" hover-class="navigator-hover">
+      <image mode="widthFix" style="width:50%;" src="/images/search.png"></image>
+      </navigator>
+      </view>
+  </view>
+  <view style="width:100%;height:1.5rem;"></view>

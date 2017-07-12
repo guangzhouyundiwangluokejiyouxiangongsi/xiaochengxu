@@ -1,0 +1,59 @@
+.info2 .logo{
+  float:left;
+  height: 4rem;
+}
+.info2 .title,.info2 .renzheng{
+  float:left;
+  height: 2rem;
+}
+.info2 .logo{
+  width:4rem;
+  height:4rem;
+  background: #f00;
+}
+.info2 .title{
+  width:16rem;
+  /*background: #000;*/
+}
+.info2 .title text{
+  display: block;
+  width:99%;
+  height: 2rem;
+  white-space:nowrap;
+  overflow: hidden;
+  text-overflow:ellipsis;
+  color: #000;
+  font-size: 0.8rem;
+  line-height: 3.1rem;
+}
+
+.info2 .renzheng{
+  width:16rem;
+  /*background: #00f;*/
+  /*line-height: 7rem;*/
+}
+.info2 .renzheng .time{
+  font-size: 0.8rem;
+  height: 2rem;
+}
+.info2 .renzheng .time text{
+  line-height: 2rem;
+  color:#999999;  
+}
+.info2 .renzheng image{
+  float:right;
+  padding-right: 0.5rem;
+  width:2rem;
+  height:2rem;
+}
+
+.description{
+  padding:0.5rem;
+  font-size: 0.8rem;
+  text-align: justify; 
+}
+
+.images image{
+  width:33%;
+  padding:0rem 0.03rem;
+}

@@ -1,0 +1,56 @@
+/* goodsclass/index/index.wxss */
+
+.goodsclass .class1{
+    position:fixed;
+  width:45%;
+  height: 100%;
+  float:left;
+  background: #E0E0E0;
+}
+.goodsclass .class1 .cur{
+  color:#f00;
+  background: #E0E0E0;
+}
+
+.goodsclass .class1 text{
+  display: block;
+  background: #fff;
+  margin-top:5rpx;
+  height: 50rpx;
+  line-height:50rpx;
+  font-size: 0.8rem;
+}
+
+.goodsclass .class2{
+  width:55%;
+  float:right;
+  background: #E0E0E0;
+  
+}
+.goodsclass .class2 text{
+  display: block;
+  /*background: #D8D8D8;*/
+  margin-top:5rpx;
+  height: 50rpx;
+  line-height:50rpx;
+  font-size: 0.8rem;
+  margin-left:1%;
+}
+
+.goodsclass .class3{
+  width:100%;
+  float:left;
+}
+
+.goodsclass .class3 text{
+  width:49%;
+  display: block;
+  background: #fff;
+  margin-top:5rpx;
+  height: 50rpx;
+  line-height:50rpx;
+  font-size: 0.8rem;
+  float:left;
+  margin-left:1%;
+  text-align: center;
+}

@@ -1,0 +1,23 @@
+<include src="../../public/header" />
+<view class="goodslist">
+<navigator  url="/goodsclass/index/list?id={{item.id}}" hover-class="navigator-hover">
+        <view class="goods">
+          <view class="image">
+              <image src="http://www.yundi88.com/Public/upload/goods/thumb/6318/goods_thumb_6318_420_420.jpeg" mode="aspectFit"></image>
+          </view>
+            
+            <view class="goodscon">
+                  <text class="title">标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题</text>
+                  <text style="color:#999">广州云狄网络科技有限公司</text>
+                  <view class="price">
+                    <text>￥125.00</text>
+                    <view class="rengzheng">
+                        <image style="float:right;width:18%;" src="http://localhost:8080/xiaochengxu/yunshanghui.png" mode="widthFix"></image>
+                        <image style="float:right;"  src="http://localhost:8080/xiaochengxu/rengzheng.png" mode="widthFix"></image>
+                    </view>
+                  </view>
+            </view>
+        </view>
+</navigator>
+</view>
+<include src="../../public/footer" />

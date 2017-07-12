@@ -1,0 +1,58 @@
+{
+  "pages":[
+    "goodsclass/index/index",
+    "info/index/index",
+    "index/index/index",
+    "pages/index/index",
+    "goodsclass/index/list",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  }
+  ,
+
+  "tabBar": {
+    "color": "#000",
+    "selectedColor": "#f00",
+    "borderStyle": "white",
+    "list": [
+      {
+        "selectedIconPath": "images/index1.png",
+        "iconPath": "images/index.png",
+        "pagePath": "index/index/index",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "images/xinxi2.png",
+        "iconPath": "images/xinxi.png",
+        "pagePath": "info/index/index",
+        "text": "搜信息"
+      },
+      {
+        "selectedIconPath": "images/qy1.png",
+        "iconPath": "images/qy.png",
+        "pagePath": "pages/index/index",
+        "text": "搜企业"
+      },
+      {
+        "selectedIconPath": "images/fenlei1.png",
+        "iconPath": "images/fenlei.png",
+        "pagePath": "goodsclass/index/index",
+        "text": "分类"
+      },
+      {
+        "selectedIconPath": "images/qita.png",
+        "iconPath": "images/qita.png",
+        "pagePath": "#",
+        "text": "其它"
+      }
+      
+      
+    ]
+  }
+  
+}
