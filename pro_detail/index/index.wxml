@@ -1,0 +1,80 @@
+<!--index.wxml-->
+<swiper class="swiper" indicator-dots="true" autoplay="true" interval="5000" duration="1000">    
+  <block wx:for="{{movies}}" wx:for-index="index" wx:key="url">    
+    <swiper-item>    
+      <image src="{{item.url}}" class="slide-image" mode="aspectFill"/>    
+    </swiper-item>    
+  </block>    
+</swiper>
+<!--价签  -->
+<view style="padding:10px;">
+  <view class="pro_name">
+    <text>棒球服青年飞行员夹克</text>
+  </view>
+  <view class="pro_price">
+    <text style="color:red;font-size:24rpx;">￥</text>
+    <text style="color:red;">0.00元</text>
+    <text class="reference">￥0.00元</text>
+  </view>
+</view>
+<!--数量  -->
+<view class="num_bbox">
+  <text>请选择数量</text>
+  <view class="num_box">
+    <view class="reduce">-</view>
+    <text class="num">1</text>
+    <view class="add">+</view>
+  </view>
+</view>
+<!--信息  -->
+<view style="padding:10px 10px 10px 160rpx ;">
+  <image class="com_img" src="http://localhost/xiaochengxu/images/sort_icon_01.png"></image>
+  <view><text>南京艾美服装有限公司</text></view>
+  <view><text style="color: #999999;font-size:14px;">13913916990</text></view>
+  <view><text style="color: #999999;font-size:14px;">860-45956600</text></view>
+</view>
+<view class="com_item_footer">
+  <view style="overflow:hidden;">
+    <view class="left">
+      <text>权威认证:</text>
+      <view class="foot_img">
+        <image src="http://localhost/xiaochengxu/images/sort_icon_01.png"></image>
+        <image src="http://localhost/xiaochengxu/images/sort_icon_01.png"></image>
+      </view>
+    </view>
+    <view class="foot_img right frimg">
+        <image src="http://localhost/xiaochengxu/images/sort_icon_01.png"></image>
+        <image src="http://localhost/xiaochengxu/images/sort_icon_01.png"></image>
+    </view>
+    <view class="right">
+      <text>综合描述：</text>
+      <text>4.99</text>
+    </view>
+  </view>
+  <view class="btn">
+    <navigator url="" style="display: inline-block;">查看全部商品</navigator>
+    <navigator url="" style="display: inline-block;">进入企业官网</navigator>
+  </view>
+</view>
+<!--详情  -->
+<view class="detail">
+  <view style="background:#ccc;text-align:center;padding:10px 0;">图文详情</view>
+  <image mode="widthFix" src="http://www.yundi88.com/Public/upload/goods/2017/03-01/58b66b4205aba.jpg"></image>
+  <image mode="widthFix" src="http://www.yundi88.com/Public/upload/goods/2017/03-01/58b66b4205aba.jpg"></image>
+  <image mode="widthFix" src="http://www.yundi88.com/Public/upload/goods/2017/03-01/58b66b4205aba.jpg"></image>
+</view>
+
+<!--bottom  -->
+<include src="../../public/bottom" />
+
+<!--fixed_bottom  -->
+<view style="height:100rpx;"></view>
+<view class="detail-nav">
+  <navigator  url="/index/index/index" open-type="switchTab" hover-class="other-navigator-hover">
+   <image mode="widthFix"  src="http://localhost/xiaochengxu/images/foot01.png" />
+  </navigator>
+  <navigator url="/goodsclaass/index/list"><image mode="widthFix" src="http://localhost/xiaochengxu/images/foot02.png" /></navigator>
+  <navigator url="url"><image mode="widthFix" src="http://localhost/xiaochengxu/images/qq04.png" /></navigator>
+  <button class="button-green" >加入采购单</button>
+  <button class="button-red" >立即购买</button>
+</view>

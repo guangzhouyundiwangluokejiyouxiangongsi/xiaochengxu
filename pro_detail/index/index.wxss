@@ -1,0 +1,79 @@
+/* index.wxss */
+.swiper {
+  height: 600rpx;
+  width: 100%;
+}
+.swiper image {
+  height: 100%;
+  width: 100%;
+}
+.reference{
+  color: #999999;
+  font-size:24rpx;
+  text-decoration: line-through;
+  padding-left:20px;
+}
+.pro_name{padding:10px 0 ;}
+
+.num_bbox{border-top: 20px solid #ccc;border-bottom: 20px solid #ccc;padding: 10px;} 
+.num_box{display:inline-block;margin-left: 20px;}
+.reduce{display:inline-block;border: 1px solid #999999;height: 50rpx;line-height: 50rpx;width: 40rpx;text-align: center;}
+.add{display:inline-block;border: 1px solid #999999;height: 50rpx;line-height: 50rpx;width: 40rpx;text-align: center;}
+.num{display: inline-block;border: 1px solid #999999;height: 50rpx;line-height: 50rpx;width: 100rpx;text-align: center;}
+.com_img{width:120rpx;height:120rpx;margin-left:-140rpx;float:left;}
+
+.com_item_footer{font-size: 24rpx;color: #999999;overflow: hidden;line-height: 36rpx;padding: 10px;}
+.com_item_footer .left{float: left;}
+.com_item_footer .right{float: right;}
+.foot_img {display: inline-block;height: 30rpx;line-height: 30rpx;}
+.foot_img image{width:30rpx;height: 30rpx;float:left;margin:4rpx 4rpx 0;}
+.com_item_footer .frimg{margin-left: 10px;}
+.com_item_footer .btn{text-align: center;}
+.com_item_footer .btn navigator{margin:20px 10px;border: 1px solid #008bb9;color: #008bb9;padding:4px 10px;}
+
+.detail image{width: 100%;height: 400px;}
+
+.detail-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  float: left;
+  background-color: #fff;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100rpx;
+}
+.button-green {
+  background-color: #fb6a68; 
+}
+.button-red {
+  background-color: #dd2726; 
+}
+.image_detail {
+  width: 100%;
+}
+button {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 32rpx;
+  border-radius: 0rpx;
+  width: 50%;
+  height: 100%;
+  line-height: 100rpx;
+}
+.button-hover{color: #FFF;}
+.detail-nav image {
+  width: 66rpx;
+  height: 50rpx;
+  margin:16rpx 20rpx;
+}
+.line_nav {
+  width: 5rpx;
+  height: 100%;
+  background-color: gainsboro;
+}

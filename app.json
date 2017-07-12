@@ -1,8 +1,10 @@
 {
   "pages":[
-    "goodsclass/index/index",
-    "info/index/index",
+    "pro_detail/index/index",
     "index/index/index",
+    "goodsclass/index/index",
+    "company/index/index",
+    "info/index/index",
     "pages/index/index",
     "goodsclass/index/list",
     "pages/logs/logs"
@@ -35,7 +37,7 @@
       {
         "selectedIconPath": "images/qy1.png",
         "iconPath": "images/qy.png",
-        "pagePath": "pages/index/index",
+        "pagePath": "company/index/index",
         "text": "搜企业"
       },
       {

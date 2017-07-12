@@ -1,0 +1,264 @@
+
+<scroll-view style="height: 100%;" scroll-y="true" scroll-top="{{scrollTop.scroll_top}}" bindscroll="scrollTopFun"> 
+<include src="../../public/header" />
+  <view class="content">
+    <view class="com_list">
+
+      <view class="com_item">
+        <!--header start-->
+        <view class="com_item_header">
+          <navigator class="com_img" url="">
+            <image src="http://localhost/xiaochengxu/images/sort_icon_01.png"></image>
+          </navigator>
+          <navigator class="com_title" url="">邢台美的客食品股份有限公司品股份有限公司品股份有限公司</navigator>
+          <view class="com_btn">
+            <navigator url="">
+              <image  src="http://localhost/xiaochengxu/images/sort_icon_01.png"></image>
+            </navigator>
+            <navigator url="">
+              <image  src="http://localhost/xiaochengxu/images/sort_icon_01.png"></image>
+            </navigator>
+          </view>
+        </view>
+        <!--header end-->
+        <!--body start-->
+        <view class="com_item_body">
+          <view class="main_pro">
+            <text class="tit">主营产品:</text>
+            <text class="con">商品、食品、王一阵子、电话号码、商品流通、中国共产党、在线、客观存在、红色、好评，好吃饭、多功能功能</text>
+          </view>
+          <view class="tel">
+            <text class="tit">电话:</text>
+            <text class="con">020-88886666</text>
+          </view>
+          <view class="address">
+            <text class="tit">地址:</text>
+            <text class="con">广东省广州市天洒区中山路101010号广州市天洒区中山路101010号广州市天洒区中山路101010号</text>
+          </view>
+        </view>
+        <!--body end-->
+        <!--footer start-->
+        <view class="com_item_footer">
+          <view class="left">
+            <text>权威认证:</text>
+            <view class="foot_img">
+              <image src="http://localhost/xiaochengxu/images/sort_icon_01.png"></image>
+              <image src="http://localhost/xiaochengxu/images/sort_icon_01.png"></image>
+            </view>
+          </view>
+          <view class="right">
+            <text>综合描述：</text>
+            <text>4.99</text>
+          </view>
+        </view>
+        <!--footer end-->
+      </view>
+
+      <view class="com_item">
+        <!--header start-->
+        <view class="com_item_header">
+          <navigator class="com_img" url="">
+            <image src="http://localhost/xiaochengxu/images/sort_icon_01.png"></image>
+          </navigator>
+          <navigator class="com_title" url="">邢台美的客食品股份有限公司品股份有限公司品股份有限公司</navigator>
+          <view class="com_btn">
+            <navigator url="">
+              <image  src="http://localhost/xiaochengxu/images/sort_icon_01.png"></image>
+            </navigator>
+            <navigator url="">
+              <image  src="http://localhost/xiaochengxu/images/sort_icon_01.png"></image>
+            </navigator>
+          </view>
+        </view>
+        <!--header end-->
+        <!--body start-->
+        <view class="com_item_body">
+          <view class="main_pro">
+            <text class="tit">主营产品:</text>
+            <text class="con">商品、食品、王一阵子、电话号码、商品流通、中国共产党、在线、客观存在、红色、好评，好吃饭、多功能功能</text>
+          </view>
+          <view class="tel">
+            <text class="tit">电话:</text>
+            <text class="con">020-88886666</text>
+          </view>
+          <view class="address">
+            <text class="tit">地址:</text>
+            <text class="con">广东省广州市天洒区中山路101010号广州市天洒区中山路101010号广州市天洒区中山路101010号</text>
+          </view>
+        </view>
+        <!--body end-->
+        <!--footer start-->
+        <view class="com_item_footer">
+          <view class="left">
+            <text>权威认证:</text>
+            <view class="foot_img">
+              <image src="http://localhost/xiaochengxu/images/sort_icon_01.png"></image>
+              <image src="http://localhost/xiaochengxu/images/sort_icon_01.png"></image>
+            </view>
+          </view>
+          <view class="right">
+            <text>综合描述：</text>
+            <text>4.99</text>
+          </view>
+        </view>
+        <!--footer end-->
+      </view>
+      <view class="com_item">
+        <!--header start-->
+        <view class="com_item_header">
+          <navigator class="com_img" url="">
+            <image src="http://localhost/xiaochengxu/images/sort_icon_01.png"></image>
+          </navigator>
+          <navigator class="com_title" url="">邢台美的客食品股份有限公司品股份有限公司品股份有限公司</navigator>
+          <view class="com_btn">
+            <navigator url="">
+              <image  src="http://localhost/xiaochengxu/images/sort_icon_01.png"></image>
+            </navigator>
+            <navigator url="">
+              <image  src="http://localhost/xiaochengxu/images/sort_icon_01.png"></image>
+            </navigator>
+          </view>
+        </view>
+        <!--header end-->
+        <!--body start-->
+        <view class="com_item_body">
+          <view class="main_pro">
+            <text class="tit">主营产品:</text>
+            <text class="con">商品、食品、王一阵子、电话号码、商品流通、中国共产党、在线、客观存在、红色、好评，好吃饭、多功能功能</text>
+          </view>
+          <view class="tel">
+            <text class="tit">电话:</text>
+            <text class="con">020-88886666</text>
+          </view>
+          <view class="address">
+            <text class="tit">地址:</text>
+            <text class="con">广东省广州市天洒区中山路101010号广州市天洒区中山路101010号广州市天洒区中山路101010号</text>
+          </view>
+        </view>
+        <!--body end-->
+        <!--footer start-->
+        <view class="com_item_footer">
+          <view class="left">
+            <text>权威认证:</text>
+            <view class="foot_img">
+              <image src="http://localhost/xiaochengxu/images/sort_icon_01.png"></image>
+              <image src="http://localhost/xiaochengxu/images/sort_icon_01.png"></image>
+            </view>
+          </view>
+          <view class="right">
+            <text>综合描述：</text>
+            <text>4.99</text>
+          </view>
+        </view>
+        <!--footer end-->
+      </view>
+      <view class="com_item">
+        <!--header start-->
+        <view class="com_item_header">
+          <navigator class="com_img" url="">
+            <image src="http://localhost/xiaochengxu/images/sort_icon_01.png"></image>
+          </navigator>
+          <navigator class="com_title" url="">邢台美的客食品股份有限公司品股份有限公司品股份有限公司</navigator>
+          <view class="com_btn">
+            <navigator url="">
+              <image  src="http://localhost/xiaochengxu/images/sort_icon_01.png"></image>
+            </navigator>
+            <navigator url="">
+              <image  src="http://localhost/xiaochengxu/images/sort_icon_01.png"></image>
+            </navigator>
+          </view>
+        </view>
+        <!--header end-->
+        <!--body start-->
+        <view class="com_item_body">
+          <view class="main_pro">
+            <text class="tit">主营产品:</text>
+            <text class="con">商品、食品、王一阵子、电话号码、商品流通、中国共产党、在线、客观存在、红色、好评，好吃饭、多功能功能</text>
+          </view>
+          <view class="tel">
+            <text class="tit">电话:</text>
+            <text class="con">020-88886666</text>
+          </view>
+          <view class="address">
+            <text class="tit">地址:</text>
+            <text class="con">广东省广州市天洒区中山路101010号广州市天洒区中山路101010号广州市天洒区中山路101010号</text>
+          </view>
+        </view>
+        <!--body end-->
+        <!--footer start-->
+        <view class="com_item_footer">
+          <view class="left">
+            <text>权威认证:</text>
+            <view class="foot_img">
+              <image src="http://localhost/xiaochengxu/images/sort_icon_01.png"></image>
+              <image src="http://localhost/xiaochengxu/images/sort_icon_01.png"></image>
+            </view>
+          </view>
+          <view class="right">
+            <text>综合描述：</text>
+            <text>4.99</text>
+          </view>
+        </view>
+        <!--footer end-->
+      </view>
+      <view class="com_item">
+        <!--header start-->
+        <view class="com_item_header">
+          <navigator class="com_img" url="">
+            <image src="http://localhost/xiaochengxu/images/sort_icon_01.png"></image>
+          </navigator>
+          <navigator class="com_title" url="">邢台美的客食品股份有限公司品股份有限公司品股份有限公司</navigator>
+          <view class="com_btn">
+            <navigator url="">
+              <image  src="http://localhost/xiaochengxu/images/sort_icon_01.png"></image>
+            </navigator>
+            <navigator url="">
+              <image  src="http://localhost/xiaochengxu/images/sort_icon_01.png"></image>
+            </navigator>
+          </view>
+        </view>
+        <!--header end-->
+        <!--body start-->
+        <view class="com_item_body">
+          <view class="main_pro">
+            <text class="tit">主营产品:</text>
+            <text class="con">商品、食品、王一阵子、电话号码、商品流通、中国共产党、在线、客观存在、红色、好评，好吃饭、多功能功能</text>
+          </view>
+          <view class="tel">
+            <text class="tit">电话:</text>
+            <text class="con">020-88886666</text>
+          </view>
+          <view class="address">
+            <text class="tit">地址:</text>
+            <text class="con">广东省广州市天洒区中山路101010号广州市天洒区中山路101010号广州市天洒区中山路101010号</text>
+          </view>
+        </view>
+        <!--body end-->
+        <!--footer start-->
+        <view class="com_item_footer">
+          <view class="left">
+            <text>权威认证:</text>
+            <view class="foot_img">
+              <image src="http://localhost/xiaochengxu/images/sort_icon_01.png"></image>
+              <image src="http://localhost/xiaochengxu/images/sort_icon_01.png"></image>
+            </view>
+          </view>
+          <view class="right">
+            <text>综合描述：</text>
+            <text>4.99</text>
+          </view>
+        </view>
+        <!--footer end-->
+      </view>
+
+    </view>
+    <!--bottom  -->
+    <include src="../../public/footer" />
+
+  </view>
+</scroll-view> 
+
+<!--back_top-->
+<view class="back_top"  wx:if="{{scrollTop.goTop_show}}" catchtap="goTopFun">
+  <image src="http://www.yundi88.com/Template/mobile/yundi/Static/images/top.png"></image>
+</view> 
