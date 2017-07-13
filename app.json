@@ -1,8 +1,8 @@
 {
   "pages":[
-    "pro_detail/index/index",
     "index/index/index",
     "goodsclass/index/index",
+    "pro_detail/index/index",
     "company/index/index",
     "info/index/index",
     "pages/index/index",

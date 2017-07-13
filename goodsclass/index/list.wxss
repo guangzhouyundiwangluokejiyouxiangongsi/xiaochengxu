@@ -72,3 +72,9 @@
   margin-right:2%;
   margin-top:20rpx;
 }
+.empty{
+  width:100%;
+  display: block;
+  text-align: center;
+  font-size: 24rpx;
+}

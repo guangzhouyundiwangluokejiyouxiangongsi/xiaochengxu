@@ -14,11 +14,16 @@
 
 .goodsclass .class1 text{
   display: block;
+  /*width:100%;*/
   background: #fff;
   margin-top:5rpx;
+  padding-left:2%;
   height: 50rpx;
   line-height:50rpx;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
+  white-space:nowrap;
+  overflow: hidden;
+  /*text-overflow:ellipsis;*/
 }
 
 .goodsclass .class2{
@@ -33,7 +38,7 @@
   margin-top:5rpx;
   height: 50rpx;
   line-height:50rpx;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   margin-left:1%;
 }
 
@@ -49,8 +54,9 @@
   margin-top:5rpx;
   height: 50rpx;
   line-height:50rpx;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   float:left;
   margin-left:1%;
   text-align: center;
 }
+
