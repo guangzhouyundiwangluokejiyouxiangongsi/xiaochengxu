@@ -1,4 +1,6 @@
 /* index.wxss */
+.header{width:80%; }
+
 .swiper {
   height: 600rpx;
   width: 100%;
@@ -15,7 +17,7 @@
 }
 .pro_name{padding:10px 0 ;}
 
-.num_bbox{border-top: 20px solid #ccc;border-bottom: 20px solid #ccc;padding: 10px;} 
+.num_bbox{border-top: 10px solid #ccc;border-bottom: 10px solid #ccc;padding: 10px;} 
 .num_box{display:inline-block;margin-left: 20px;}
 .reduce{display:inline-block;border: 1px solid #999999;height: 50rpx;line-height: 50rpx;width: 40rpx;text-align: center;}
 .add{display:inline-block;border: 1px solid #999999;height: 50rpx;line-height: 50rpx;width: 40rpx;text-align: center;}

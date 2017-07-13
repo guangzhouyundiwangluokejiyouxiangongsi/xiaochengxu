@@ -1,4 +1,21 @@
 <!--index.wxml-->
+<view class="head">
+    <view class="sousuo" style="float:left;">
+    <navigator  url="/pages/index/index" hover-class="navigator-hover">
+      <image mode="widthFix" style="width:28%;" src="/images/return.png"></image>
+    </navigator>
+    </view>
+    <view class="header">
+      <text>企业信息</text>
+    </view>
+    <view class="sousuo">
+    <navigator  url="/cart/cart"  hover-class="navigator-hover">
+      <image mode="widthFix" style="width:50%;" src="/images/gouwuche.png"></image>
+    </navigator>
+    </view>
+</view>
+<view style="width:100%;height:1.5rem;"></view>
+
 <swiper class="swiper" indicator-dots="true" autoplay="true" interval="5000" duration="1000">    
   <block wx:for="{{movies}}" wx:for-index="index" wx:key="url">    
     <swiper-item>    
@@ -65,7 +82,7 @@
 </view>
 
 <!--bottom  -->
-<include src="../../public/bottom" />
+<include src="../../public/footer" />
 
 <!--fixed_bottom  -->
 <view style="height:100rpx;"></view>
@@ -73,7 +90,7 @@
   <navigator  url="/index/index/index" open-type="switchTab" hover-class="other-navigator-hover">
    <image mode="widthFix"  src="http://localhost/xiaochengxu/images/foot01.png" />
   </navigator>
-  <navigator url="/goodsclaass/index/list"><image mode="widthFix" src="http://localhost/xiaochengxu/images/foot02.png" /></navigator>
+  <navigator url="/goodsclass/index/list" ><image mode="widthFix" src="http://localhost/xiaochengxu/images/foot02.png" /></navigator>
   <navigator url="url"><image mode="widthFix" src="http://localhost/xiaochengxu/images/qq04.png" /></navigator>
   <button class="button-green" >加入采购单</button>
   <button class="button-red" >立即购买</button>

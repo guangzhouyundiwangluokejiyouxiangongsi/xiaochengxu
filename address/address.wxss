@@ -1,0 +1,35 @@
+page{
+    background-color: #ffffff;
+    font-family: "Helvetica Neue","Hiragino Sans GB","Microsoft YaHei","\9ED1\4F53",Arial,sans-serif;
+    font-size: 32rpx;
+}
+.navigator-hover{
+    background: none;
+}
+
+.form-box{
+    padding:0 30rpx;
+}
+.form-box input{
+    height: 90rpx;
+    font-size: 28rpx;
+    color: #999;
+}
+.form-box text{
+  margin-left: -140rpx;
+  float: left;
+  display: block;
+  height: 90rpx;
+  line-height:90rpx;
+  font-size: 28rpx;
+}
+.form-box .input-placeholder{
+    color: #aaa;
+}
+.form-box button{
+    border: none;
+    background: red;
+    color: #ffffff;
+    margin:30rpx 30rpx 0 0;
+}
+.ov{overflow: hidden;padding-left: 140rpx;border-bottom: 1rpx solid #ededed;}

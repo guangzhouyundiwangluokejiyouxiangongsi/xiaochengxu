@@ -1,0 +1,23 @@
+<view class="main">
+    <view class="form-box">
+        <form bindsubmit="formSubmit">
+            <view class="ov">
+              <text>姓名：</text>
+              <input value="{{address.name}}" placeholder="姓名" bindinput="bindName"/>
+            </view>
+            <view class="ov">
+              <text>电话号码：</text>
+              <input type="number" value="{{address.phone}}" placeholder="电话号码" bindinput="bindPhone" />
+            </view>
+            <view class="ov">
+              <text>详细地址：</text>
+              <input value="{{address.detail}}" placeholder="详细地址" bindinput="bindDetail"/>
+            </view>
+            <view class="ov">
+              <text>邮政编码：</text>
+              <input value="{{address.post}}" placeholder="邮政编码" bindinput="bindPost"/>
+            </view>
+            <button form-type="submit">保存</button>
+        </form>
+    </view>
+</view>
