@@ -1,0 +1,139 @@
+<!--user.wxml-->
+<view class="user_header">
+  <view class="user_img">
+  
+    <image src="/images/user.jpg" ></image>
+  </view>
+  <navigator url=""> 设置</navigator>
+</view>
+
+<view class="user_topnav">
+  <navigator url="">
+    <text>0</text>
+    <text>我的订单</text>
+  </navigator>
+  <navigator url="" style="border-left:1px solid #ccc;border-right:2rpx solid #ccc;">
+    <text>0</text>
+    <text>我的收藏</text>
+  </navigator>
+  <navigator url="">
+    <text>0</text>
+    <text>我的评价</text>
+  </navigator>
+</view>
+
+<view class="money_box">
+  <view class="money">
+    <navigator url="">
+      <text class="red">￥0.00元</text>
+      <text>余额</text>
+    </navigator>
+    <navigator url="" style="border-left:1px solid #ccc;border-right:2rpx solid #ccc;">
+      <text class="red">0</text>
+      <text>优惠券</text>
+    </navigator>
+    <navigator url="">
+      <text class="red">0</text>
+      <text>积分</text>
+    </navigator>
+  </view>
+  <navigator class="item" style="border-bottom:none;">
+    <image class="item_left img_left" src="/images/user1.jpg"></image>
+    <text class="item_left">我的钱包</text>
+    <image class="item_right img_right" src="/images/arrow_right.png"></image>
+    <text class="item_right ">查看我的钱包</text>
+  </navigator>
+</view>
+
+<view style="padding: 10rpx 20rpx;border-bottom: 20rpx solid #eee;">
+  <navigator class="item">
+    <image class="item_left img_left" src="/images/user2.jpg"></image>
+    <text class="item_left">全部订单</text>
+    <image class="item_right img_right" src="/images/arrow_right.png"></image>
+    <text class="item_right ">查看订单</text>
+  </navigator>
+  <navigator class="item">
+    <image class="item_left img_left" src="/images/user3.jpg"></image>
+    <text class="item_left">我的优惠券</text>
+    <image class="item_right img_right" src="/images/arrow_right.png"></image>
+  </navigator>
+  <navigator class="item">
+    <image class="item_left img_left" src="/images/user4.jpg"></image>
+    <text class="item_left">我的评价</text>
+    <image class="item_right img_right" src="/images/arrow_right.png"></image>
+    <text class="item_right ">查看评价</text>
+  </navigator>
+  <navigator class="item">
+    <image class="item_left img_left" src="/images/user5.png"></image>
+    <text class="item_left">我的收藏</text>
+    <image class="item_right img_right" src="/images/arrow_right.png"></image>
+  </navigator>
+  <navigator class="item" style="border-bottom:none;">
+    <image class="item_left img_left" src="/images/user1.jpg"></image>
+    <text class="item_left">申请提现</text>
+    <image class="item_right img_right" src="/images/arrow_right.png"></image>
+  </navigator>
+</view>
+
+<view style="padding: 10rpx 20rpx;border-bottom: 20rpx solid #eee;">
+  <navigator class="item">
+    <image class="item_left img_left" src="/images/user5.jpg"></image>
+    <text class="item_left">地址管理</text>
+    <image class="item_right img_right" src="/images/arrow_right.png"></image>
+  </navigator>
+  <navigator class="item">
+    <image class="item_left img_left" src="/images/user6.jpg"></image>
+    <text class="item_left">我的积分</text>
+    <image class="item_right img_right" src="/images/arrow_right.png"></image>
+  </navigator>
+  <navigator class="item">
+    <image class="item_left img_left" src="/images/user7.jpg"></image>
+    <text class="item_left">我的留言</text>
+    <image class="item_right img_right" src="/images/arrow_right.png"></image>
+  </navigator>
+  <navigator class="item" style="border-bottom:none;">
+    <image class="item_left img_left" src="/images/user8.jpg"></image>
+    <text class="item_left">售后服务</text>
+    <image class="item_right img_right" src="/images/arrow_right.png"></image>
+  </navigator>
+</view>
+
+<view style="padding: 10rpx 20rpx;" >
+  <navigator class="item" style="border-bottom:none;">
+    <image class="item_left img_left" src="/images/user9.jpg"></image>
+    <text class="item_left">注销登录</text>
+    <image class="item_right img_right" src="/images/arrow_right.png"></image>
+  </navigator>
+</view>
+<include src="../../public/footer" />
+
+<view class="bottom">
+  <view class="position">
+    <navigator url="/index/index/index" open-type="switchTab">
+      <image src="/images/index.png" ></image>
+      <text>首页</text>
+    </navigator>
+    <navigator url="/info/index/index" open-type="switchTab">
+      <image src="/images/xinxi.png" ></image>
+      <text>信息</text>
+    </navigator>
+    <navigator url="/company/index/index" open-type="switchTab">
+      <image src="/images/qy.png" ></image>
+      <text>企业</text>
+    </navigator>
+    <navigator url="/goodsclass/index/index" open-type="switchTab">
+      <image src="/images/fenlei.png"></image>
+      <text>分类</text>
+    </navigator>
+<!--其他  -->
+    <navigator url=""  bindtap="list">
+      <image src="/images/qita.png"></image>
+      <text>其他</text>
+    </navigator>
+    <view class="qitalist {{nzopen ? 'slidown' : 'slidup'}}">
+      <view wx:for="{{content}}">
+        <navigator url="/user/user/user" >{{item}}</navigator>
+      </view>
+    </view>
+  </view>
+</view>

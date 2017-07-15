@@ -1,0 +1,54 @@
+/* user.wxss */
+.user_header{background: url(/images/userbg.png);height: 260rpx;position: relative;}
+.user_header .user_img{position: absolute;bottom:-30rpx;left: 30rpx;width: 160rpx;height: 160rpx;border-radius: 50%;overflow: hidden;float: left}
+.user_header .user_img image{width: 160rpx;height: 160rpx;}
+.user_header navigator{margin:  20rpx  20rpx 0 0;float: right;width:110rpx;border-radius: 30rpx;background: rgba(0, 0, 0, 0.6);color: #FFF;text-align: center;font-size: 28rpx;line-height: 50rpx;}
+
+.user_topnav{padding:20rpx 20rpx 20rpx 30%;overflow: hidden;font-size: 28rpx;}
+.user_topnav navigator{float: left;width: 33%;}
+.user_topnav navigator text{display: block;text-align: center;}
+
+.money_box{padding: 20rpx 20rpx 10rpx 20rpx;border-top: 20rpx solid #eee;border-bottom: 20rpx solid #eee;overflow: hidden}
+.money_box .money{padding-bottom: 20rpx;overflow: hidden;border-bottom: 2rpx solid #eee;}
+.money_box .money navigator{float: left;width: 33%;font-size: 24rpx;color: #999;}
+.money_box navigator text{display: block;text-align: center;}
+.money_box navigator .red{color:red;margin-bottom: 10rpx;}
+
+.item{height: 90rpx;line-height: 90rpx;margin-left: 100rpx;border-bottom: 1rpx solid #eee;}
+.item .img_left{width:70rpx;height: 70rpx;margin-top: 10rpx;margin-left:-100rpx; }
+.item .img_right{width:18rpx;height: 35rpx;margin-top:26rpx;margin-left: 10rpx;}
+.item_left{float: left;font-size: 32rpx;color:#666;}
+.item_right{float: right;font-size: 26rpx;color: #999;}
+
+/*其他  */
+.bottom{background: #FFF;text-align: center;border-top: 1px solid #ccc;position: fixed;width: 100%;bottom: 0;}
+.bottom image{width: 50rpx;height: 50rpx;}
+.bottom text{display: block;font-size: 24rpx;}
+.bottom navigator{width: 20%;float: left;padding: 10rpx 0;}
+.bottom .position{position: relative;}
+.qitalist{position: absolute;bottom: 0;right: -1px; overflow: hidden; display: block;border-bottom: 1px solid #ccc;}
+.qitalist navigator{font-size: 14px;padding: 0;height: 40px;line-height: 40px;float: none;border: 1px solid #ccc;border-bottom:0;width: 146rpx;background-color: #fff;}
+
+@keyframes slidup{
+    from{
+       height: 160px;
+    }
+    to{
+       height: 0px;
+    }
+}
+.slidown{
+    animation: slidown .7s ease-in both;
+}
+@keyframes slidown{
+    from{
+      height: 0px;
+    }
+    to{
+      height: 160px;
+    }
+}
+.slidup{
+    height: 0;
+    animation: slidup .7s ease-in both;
+}

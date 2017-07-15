@@ -3,7 +3,7 @@
         <text>企业信息</text>
       </view>
       <view class="sousuo">
-      <navigator  url="/pages/index/index" hover-class="navigator-hover">
+      <navigator  url="/search/search" hover-class="navigator-hover">
       <image mode="widthFix" style="width:50%;" src="/images/search.png"></image>
       </navigator>
       </view>

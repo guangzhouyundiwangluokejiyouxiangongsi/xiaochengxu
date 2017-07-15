@@ -1,0 +1,50 @@
+/* search.wxss */
+.content{padding: 20rpx;}
+.tabsSort .sort{display: inline-block;width: 100rpx;text-align: center;padding:10rpx;}
+.tabsSort .sort.on{background: red;color: #fff;}
+
+.tab {padding-right: 130rpx;overflow: hidden;border:1px solid red;}
+.tab input{font-size: 28rpx;color: #666;line-height: 72rpx;height: 72rpx;float: left;width:96%;padding:0 0 0 2%;}
+.tab button{height: 72rpx;line-height: 72rpx;background: red;color: #FFF;float: right;
+margin-right: -130rpx;border-radius: 0;
+}
+
+.tip{font-size: 26rpx;color: #999;padding-top: 80rpx;display: block;}
+
+.pro{overflow: hidden;padding-top: 40rpx;}
+.pro text{display: block;padding-bottom: 10rpx;}
+.pro navigator{float: left;background: #f7f7f7;padding: 4rpx 20rpx;margin:0 20rpx 10rpx 0;}
+
+
+/*其他  */
+.bottom{background: #FFF;text-align: center;border-top: 1px solid #ccc;position: fixed;width: 100%;bottom: 0;}
+.bottom image{width: 50rpx;height: 50rpx;}
+.bottom text{display: block;font-size: 24rpx;}
+.bottom navigator{width: 20%;float: left;padding: 10rpx 0;}
+.bottom .position{position: relative;}
+.qitalist{position: absolute;bottom: 0;right: -1px; overflow: hidden; display: block;border-bottom: 1px solid #ccc;}
+.qitalist navigator{font-size: 14px;padding: 0;height: 40px;line-height: 40px;float: none;border: 1px solid #ccc;border-bottom:0;width: 146rpx;background-color: #fff;}
+
+@keyframes slidup{
+    from{
+       height: 160px;
+    }
+    to{
+       height: 0px;
+    }
+}
+.slidown{
+    animation: slidown .7s ease-in both;
+}
+@keyframes slidown{
+    from{
+      height: 0px;
+    }
+    to{
+      height: 160px;
+    }
+}
+.slidup{
+    height: 0;
+    animation: slidup .7s ease-in both;
+}

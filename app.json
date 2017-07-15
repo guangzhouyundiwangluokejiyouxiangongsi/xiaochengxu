@@ -1,9 +1,12 @@
 {
-  "pages":[
+  "pages": [
+    
+    "pro_detail/index/index",
+    "user/user/user",
+    "search/search",
     "index/index/index",
     "goodsclass/index/index",
-    "pro_detail/index/index",
-     "cart/cart",
+    "cart/cart",
     "orders/orders",
     "address/address",
     "company/index/index",
@@ -11,15 +14,14 @@
     "pages/index/index",
     "goodsclass/index/list",
     "pages/logs/logs"
+    
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
-  }
-  ,
-
+    "navigationBarTextStyle": "black"
+  },
   "tabBar": {
     "color": "#000",
     "selectedColor": "#f00",
@@ -55,9 +57,6 @@
         "pagePath": "#",
         "text": "其它"
       }
-      
-      
     ]
   }
-  
 }

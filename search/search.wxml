@@ -1,0 +1,73 @@
+<!--search.wxml-->
+<include src="../public/header" />
+<view class="content">
+  <!--搜索框部分  -->
+  <view style="padding:40rpx 20rpx 20rpx;">
+    <view class="tabsSort">
+      <view class="sort on">产品</view>
+      <view class="sort">信息</view>
+      <view class="sort">公司</view>
+    </view>
+    <form>
+      <view class="tab">
+        <input type="text" placeholder="搜索关键词" />
+        <button>搜索</button>
+      </view> 
+    </form>
+  </view>
+  <text class="tip">你可能感兴趣的热词</text>
+  <view class="pro">
+    <text>产品：</text>
+    <navigator url="/company/index/index" open-type="switchTab">123</navigator>
+    <navigator url="/company/index/index" open-type="switchTab">123</navigator>
+    <navigator url="/company/index/index" open-type="switchTab">123</navigator>
+    <navigator url="/company/index/index" open-type="switchTab">123</navigator>
+  </view>
+  <view class="pro">
+    <text>信息：</text>
+    <navigator url="/company/index/index" open-type="switchTab">123</navigator>
+    <navigator url="/company/index/index" open-type="switchTab">123</navigator>
+    <navigator url="/company/index/index" open-type="switchTab">123</navigator>
+    <navigator url="/company/index/index" open-type="switchTab">123</navigator>
+  </view>
+  <view class="pro">
+    <text>公司：</text>
+    <navigator url="/company/index/index" open-type="switchTab">123</navigator>
+    <navigator url="/company/index/index" open-type="switchTab">123</navigator>
+    <navigator url="/company/index/index" open-type="switchTab">123</navigator>
+    <navigator url="/company/index/index" open-type="switchTab">123</navigator>
+  </view>
+</view>
+
+<view class="bottom">
+  <view class="position">
+    <navigator url="/index/index/index" open-type="switchTab">
+      <image src="/images/index.png" ></image>
+      <text>首页</text>
+    </navigator>
+    <navigator url="/info/index/index" open-type="switchTab">
+      <image src="/images/xinxi.png" ></image>
+      <text>信息</text>
+    </navigator>
+    <navigator url="/company/index/index" open-type="switchTab">
+      <image src="/images/qy.png" ></image>
+      <text>企业</text>
+    </navigator>
+    <navigator url="/goodsclass/index/index" open-type="switchTab">
+      <image src="/images/fenlei.png"></image>
+      <text>分类</text>
+    </navigator>
+<!--其他  -->
+    <navigator url=""  bindtap="list">
+      <image src="/images/qita.png"></image>
+      <text>其他</text>
+    </navigator>
+    <view class="qitalist {{nzopen ? 'slidown' : 'slidup'}}">
+      <view wx:for="{{content}}">
+        <navigator url="/user/user/user" >{{item}}</navigator>
+      </view>
+    </view>
+  </view>
+</view>
+
+
